@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body > header{
+    background-color: #21572f;
+    padding: 16px 0;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header li a {
+    background-color: #0b3015;
+    color:aliceblue;
+    padding: 8px;
+    display:inline-block;
+    text-decoration: none;}
+header li a:hover{
+    text-decoration:underline
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+
+}
+
+.articles article img{
+   /* height: 180px; */
+    width: 100%;}
+
+.articles article {
+    width: 30%;
+}
+
+Section{
+    padding: 16px 0;
+}
+
+Section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: #05f744;
+    color:aliceblue;
+    padding: 8px;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top:8px
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a{
+    font-family: Arial, Helvetica, sans-serif;      
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#Sports{
+    background-color:#14612b;
+    
+
+}
+#Sports .articles article a{
+    color: #000;
+}
+
+#Economy{
+    background-color:#579104;
+    
+}
+
+#Economy .articles article a{
+    background-color: #f7bb07;
+    color: #000;
+}
+
+#Cinema{
+    background-color: #527d2d;
+}
+
+#Cinema .articles article a{
+    background-color: #69408f;
+    color:#000;
+}
+
+#Education{
+    background-color: #17e65f;
+}
+
+#Education .articles article a{
+    background-color: #28fa91;
+    color:#000
+}
