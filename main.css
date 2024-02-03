@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header > .container, 
+footer > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+header, footer{
+    background-color: rgb(21, 223, 223);
+    font-style: italic;
+    text-transform: uppercase;
+    padding-top: 16px;
+    color: #fffC;
+}
+
+nav{
+    background-color: rgb(27, 187, 187);
+    padding: 16px 0 ;
+    
+}
+
+nav li a{
+    color:#fff ;
+    text-decoration: none;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.menu-hamburguer{
+    width: 32px;
+    cursor: pointer;
+
+}
+
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex{
+    display:flex
+}
+
+header img{
+width:120px;}
+
+
+#sobre img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section{
+    padding: 48px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}       
+
+.lista-planos{
+    flex-wrap: wrap;
+}
+
+.lista-planos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+    margin-right: 16px;
+
+}
+
+.lista-planos img{
+    max-width: 100%;
+}
+
+.lista-planos h3{
+    margin: 16px 0;
+}
+
+button{
+    display:block;
+    width: 100%;
+    padding: 8px 0;
+    border:none;
+    background-color: rgb(45, 137, 190);
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor:pointer;
+    border-radius: 360px;
+}
+
+.prices{
+    margin: 16px 0;
+    display:block;
+
+}
+.form-campo{
+    margin-bottom: 16px;
+}
+
+
+.form-campo label{
+    display:block;
+    font-weight: bold;
+
+}
+
+.form-campo input, .form-campo textarea{
+    width: 100%;
+    display:block;
+    padding: 8px;
+}
+
+.form-campo textarea{
+    resize:none;
+    height: 120px;
+}
+
+form{
+    max-width: 360px;
+}
+
+form button{
+    max-width: 120px;
+}
+
+footer li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer img{
+    height: 32px;
+}
