@@ -1,0 +1,66 @@
+@use 'variaveis';
+@use 'reset';
+
+
+li{
+    list-style: none;
+}
+
+
+
+header{
+    background-color:variaveis.$corSecundaria;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+        .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }
+    }
+    
+    .menu {
+        display: flex;
+    
+        li{
+            font-weight: bold;
+            margin-left: 24px;
+            
+        }
+        li a{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+
+
+body{
+    background-color: variaveis.$corPrincipal;
+}
+
+.images {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+
+    h4{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.fotos img {
+    width: 100%;
+    border-radius: 16px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+section {
+    padding: 56px 0;}
